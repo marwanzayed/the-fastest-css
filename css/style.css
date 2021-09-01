@@ -66,13 +66,6 @@ pre {
 .navbar .link {
   float: right;
 }
-.navbar .link i {
-  position: absolute;
-  right: 35px;
-  top: 15px;
-  font-size: 20px;
-  display: none;
-}
 .navbar .link ul li {
   float: left;
   padding: 8px 16px;
@@ -106,26 +99,6 @@ pre {
   border: 1px solid var(--main-color);
   background-color: var(--main-color);
   color: #fff;
-}
-@media (max-width: 767px) {
-  .navbar .link i {
-    display: block;
-    cursor: pointer;
-  }
-  .navbar .link i:hover + ul {
-    display: block;
-  }
-  .navbar .link ul {
-    position: absolute;
-    right: 35px;
-    top: 35px;
-    background: #eee;
-    color: #fff;
-    display: none;
-  }
-  .navbar .link ul li {
-    float: none;
-  }
 }
 /* End Navbar */
 /* Start Loanding */
@@ -178,6 +151,9 @@ pre {
   background-color: #57cc99;
 }
 @media (max-width: 767px) {
+  .loanding .title {
+    margin-top: 500px
+  }
   .loanding .title p {
     text-align: center;
   }
@@ -189,6 +165,9 @@ pre {
   }
   .loanding .title {
     margin-top: 5px;
+  }
+  .loanding .logo img {
+    margin-top: 140px;
   }
 }
 /* End Loanding */

@@ -34,9 +34,20 @@ aside a.active {
     position: relative;
     height: 33vh;
     display: block;
+    margin-top: 138px;
   }
   .card {
     padding-left: 10px;
+  }
+}
+@media (max-width: 367px) {
+  aside {
+    margin-top: 218px;
+  }
+}
+@media (min-width: 368px) and (max-width: 600px) {
+  aside {
+    margin-top: 180px;
   }
 }
 /* End Aside */
