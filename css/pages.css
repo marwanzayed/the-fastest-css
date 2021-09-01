@@ -1,0 +1,89 @@
+:root {
+  --main-color: #22577a;
+}
+.card {
+  padding-left: 190px;
+}
+/* Start Aside */
+aside {
+  height: 92vh;
+  display: inline-block;
+  background-color: #eee;
+  color: #000;
+  position: fixed;
+}
+aside h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+aside li {
+  margin-bottom: 10px;
+}
+aside a {
+  color: #999;
+  text-decoration: none;
+}
+aside a:hover {
+  color: #000;
+}
+aside a.active {
+  color: #000;
+}
+/* End Aside */
+/* Start Introduction */
+.introduction p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-top: 5px;
+}
+.introduction a {
+  color: #00f;
+  text-decoration: none;
+}
+
+/* End Introduction */
+
+/* Start Download */
+.download-pages {
+  position: relative;
+}
+.download-pages .h1 {
+  margin-bottom: 15px;
+}
+.download-pages p {
+  line-height: 2;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333;
+}
+.download-pages h3 {
+  margin-bottom: 15px;
+}
+.download-pages a {
+  font-size: 18px;
+  width: 200px;
+  padding: 8px 16px;
+  background-color: transparent;
+  border: 1px solid var(--main-color);
+  transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  color: var(--main-color);
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+.download-pages a:hover {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+/* Start Download */
