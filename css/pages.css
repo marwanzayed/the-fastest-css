@@ -29,6 +29,16 @@ aside a:hover {
 aside a.active {
   color: #000;
 }
+@media (max-width: 767px) {
+  aside {
+    position: relative;
+    height: 33vh;
+    display: block;
+  }
+  .card {
+    padding-left: 10px;
+  }
+}
 /* End Aside */
 /* Start Introduction */
 .introduction p {
